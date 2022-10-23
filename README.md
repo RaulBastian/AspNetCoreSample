@@ -10,6 +10,15 @@
    ASPNETCoreSample (Out of process IISEXPRESS, ISS and when run from dotnet run)  
 
 
+2) Obtaining a value from a custom settings key
+
+    ```
+    appsettings.json  
+    appsettings.development.json  
+    environment variable
+    ```
+
+
   
 
 
