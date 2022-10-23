@@ -1,0 +1,39 @@
+{
+  "profiles": {
+    "aspnetcoresample": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7019;http://localhost:5114"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS": {
+      "commandName": "IIS",
+      "workingDirectory": "D:\\Projects\\AspNetCore\\aspnetcoresample\\src\\InsuranceClaimsWeb",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost/aspnetcoresample",
+      "ancmHostingModel": "OutOfProcess"
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/aspnetcoresample",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:22715",
+      "sslPort": 44370
+    }
+  }
+}
