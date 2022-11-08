@@ -41,4 +41,23 @@
           public DbSet<PolicyHolder> PolicyHolders { get; set; } = default(DbSet<PolicyHolder>)!;
           public DbSet<Repairer> Repairers { get; set; } = default(DbSet<Repairer>)!;
       }
-  
+
+
+4) Added MVC
+   
+   ```
+   Registered with services:
+   builder.Services.AddMvc();
+
+   
+   Registered with application:
+   app.UseStaticFiles();
+   app.MapDefaultControllerRoute();
+
+   Added client side libraries with libman:
+   Bootstrap
+   Jquery
+
+   Added views:
+   _Layout, _ViewImports, _ViewStart
+   
